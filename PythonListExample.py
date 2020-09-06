@@ -199,3 +199,41 @@ numbers2.reverse()
 print(numbers2)
 
 
+ranks = [1,4,33,0,43,3]
+print(max(ranks))
+print(min(ranks))
+ranks.reverse()
+print(ranks)
+ranks.sort()
+print(ranks)
+
+##convert tuple to list
+animals = ("cat", 'dog', 'fish', 'cow')
+print(list(animals))
+
+#sort in descending order
+ranks.sort(reverse=True)
+print(ranks)
+
+#strings also sorted based on length or alphabetical order
+list(animals).sort()
+animals =["cat", 'dog', 'fish', 'cow']
+sortedAnimals = animals.sort()
+print(sortedAnimals)
+
+
+strings = ['cat', 'mammal', 'goat', 'is']
+sort_by_alphabet = strings.sort(key = len)
+print(strings.sort(key = len))
+
+
+#list comprehensions
+
+a=2
+print(a**3)
+
+# create a list of squres from 1 to 10
+
+squares_list = [a**2 for a in range(1,5)]
+print(squares_list)
+
